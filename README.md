@@ -1,2 +1,6 @@
-## 🚀 Checkout My Page
-[![Live](https://img.shields.io/badge/Live-Here-green)](https://my-page-eight-tau.vercel.app/)
+
+### **3. Minimal**
+```md
+### 🔗 Checkout My Page  
+[Click Here]((https://my-page-eight-tau.vercel.app/))
+(https://my-page-eight-tau.vercel.app/)
