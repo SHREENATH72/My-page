@@ -49,7 +49,7 @@ window.addEventListener('scroll', () => {
   });
 });
 
-const revealElements = document.querySelectorAll('.home-container, .about-container, .projects-container, .services-container, .contact-content');
+const revealElements = document.querySelectorAll('.about-container, .projects-container, .services-container, .contact-content');
 revealElements.forEach(el => el.classList.add('reveal'));
 
 const backToTop = document.createElement('div');
@@ -115,7 +115,11 @@ function type() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', type);
+
+setTimeout(() => {
+    type();
+}, 1000);
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const loadingText = document.getElementById("loading-text");
