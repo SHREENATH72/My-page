@@ -88,7 +88,7 @@ cards.forEach(card => {
 });
 
 const typingElement = document.querySelector('.info-home h3'); 
-const words = ["Frontend Developer", "JavaScript Developer", "Web Enthusiast", "React Developer"];
+const words = ["Frontend Developer", "JS Developer", "Web Enthusiast", "React Developer"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -149,3 +149,4 @@ document.addEventListener("DOMContentLoaded", () => {
     mainPage.classList.add("visible");
   }, 4000);
 });
+
